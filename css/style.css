@@ -265,6 +265,9 @@ text-transform: capitalize;
 }
 /*About Section*/
 
+#about1{ 
+  margin-top: 50px;
+ }
 .about-details img{
     border-radius: 50%;
     text-align: center;
@@ -293,6 +296,9 @@ text-transform: capitalize;
     line-height: 1.8rem;
 }
 @media only screen and (max-width: 600px) {
+  #about1{ 
+    margin-top: 10px;
+   }
   .about-details img{
     border-right: 6px solid #333;
     height: auto;
