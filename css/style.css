@@ -313,7 +313,7 @@ text-transform: capitalize;
 }
 
 .padddingB {
-  padding-bottom: 74px;
+  padding-bottom: 50px;
 }
 @media only screen and (max-width: 600px) {
   #about1{ 
@@ -337,7 +337,13 @@ text-transform: capitalize;
 }
 
 /*Photo details*/
-
+.card_header{
+  padding: 0;
+}
+.card_header img{
+  width: 100%;
+  object-fit: cover;
+}
 .photo-details img{
     width: 100%;
     border-radius: 15px;
