@@ -53,6 +53,7 @@ body {
 @media only screen and (max-width: 600px) {
   .contact-detail{
     text-align: center;
+    justify-content: center;
   }
   #header .social-iconss{
     text-align: left;
