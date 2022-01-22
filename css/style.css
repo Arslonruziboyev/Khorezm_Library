@@ -136,6 +136,7 @@ z-index: 1;
 .nav-toggle:hover {
   color:#333;
   transform: rotate(90deg);
+  background-color: transparent;
 }
 .show-link {
   visibility: visible;
@@ -238,8 +239,9 @@ text-transform: capitalize;
     letter-spacing: 2px;
     font-family: 'Corinthia';
     position: absolute;
-    bottom: 10px;
-    left:30%;
+    top: 87%;
+    left:50%;
+    transform: translate(-50%, -50%);
     font-weight: 800;
 
 }
@@ -249,12 +251,14 @@ text-transform: capitalize;
  }
 @media only screen and (max-width: 600px) {
   .splide__slide div{
+    width: 70vw;
      font-size:15px;
     letter-spacing: 2px;
     font-family: 'Corinthia';
     position: absolute;
-    bottom: 10px;
-    left:30%;
+    top: 86%;
+    left:50%;
+    transform: translate(-50%, -50%);
     font-weight: 800;
 
 }
