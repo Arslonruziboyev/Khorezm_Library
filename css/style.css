@@ -123,6 +123,7 @@ z-index: 1;
   
 }
 .fixed-nav .links a:hover {
+  text-decoration: none;
   color: #0b5ed7;
   text-shadow: 0 0 10px #0b5ed7, 0 0 15px #0a47a1;
 }
@@ -154,6 +155,7 @@ z-index: 1;
   display: block;
   padding: 0.5rem 1rem;
   transition: var(--transition);
+  text-decoration: none;
   /* border-bottom: ; */
 }
 .links a:hover {
@@ -307,7 +309,10 @@ text-transform: capitalize;
 }
 
 .padddingB {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
+}
+.paddingA{
+  padding-top: 50px;
 }
 @media only screen and (max-width: 600px) {
   #about1{ 
