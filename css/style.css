@@ -336,12 +336,24 @@ text-transform: capitalize;
 }
 
 /*Photo details*/
+
 .card_header{
   padding: 0;
+  position: relative;
 }
 .card_header img{
-  width: 100%;
+  width: 50%;
+  height: 250px;
+  float: left;
   object-fit: cover;
+}
+@media only screen and (max-width: 600px){
+  .card_header img{
+    width: 100%;
+  }
+.hide-me{
+  display: none;
+}
 }
 .photo-details img{
     width: 100%;
