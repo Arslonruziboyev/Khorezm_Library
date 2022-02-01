@@ -1,2 +1,2 @@
-# Khorezm_Library
+# Khiva_Library
 about Library
